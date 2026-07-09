@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : and_prj.vf
+// /___/   /\     Timestamp : 06/20/2026 19:24:16
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family artix7 -verilog /home/ise/ise_projects/schematic/and_prj.vf -w /home/ise/ise_projects/schematic/and_prj.sch
+//Design Name: and_prj
+//Device: artix7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module and_prj(A_IN, 
+               B_IN, 
+               COUT);
+
+    input A_IN;
+    input B_IN;
+   output COUT;
+   
+   
+   AND2  XLXI_1 (.I0(B_IN), 
+                .I1(A_IN), 
+                .O(COUT));
+endmodule
