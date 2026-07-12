@@ -1,0 +1,600 @@
+BeginGroup
+add wire 1232 1824 1232 1856 -sn=1
+add instance and2 1104 1856 R90 -sn=1
+EndGroup
+add instance and2 1504 1856 R90 -sn=1
+add instance and2 1904 1856 R90 -sn=1
+add instance and2 2304 1872 R90 -sn=1
+add instance and2 2704 1856 R90 -sn=1
+add instance and2 3104 1856 R90 -sn=1
+add instance and2 3504 1872 R90 -sn=1
+select figure at 1220 1987 8 -branches -sn=1
+move instance at 1104 1856 to 1104 1872 R90 -keepConn -sn=1
+select figure at 1415 2007 8 -branches -sn=1
+add autowire 1632 1824 1632 1856 8 -sn=1
+add autowire 2032 1824 2032 1856 8 -sn=1
+add autowire 2432 1824 2432 1872 8 -sn=1
+add autowire 2832 1824 2832 1856 8 -sn=1
+add autowire 3232 1824 3232 1856 8 -sn=1
+add autowire 3632 1824 3632 1872 8 -sn=1
+add autowire 768 1856 1168 1856 8 -sn=1
+select figure at 756 1777 8 -branches -sn=1
+select figure at 766 1777 8 -branches -sn=1
+delete selection -sn=1
+add autowire 768 1856 1168 1872 8 -sn=1
+select figure at 784 991 8 -branches -sn=1
+select figure at 1020 1910 8 -branches -sn=1
+move iomarker at 1024 1856 to 1024 1936 R90 -keepConn -sn=1
+select figure at 1004 997 8 -branches -sn=1
+move wire at 768 992 1168 992 to 768 1856 1168 1856 -keepConn -sn=1
+select figure at 642 1763 8 -branches -sn=1
+select figure at -48 1515 8 -branches -sn=1
+add autowire 1168 1856 1568 1856 8 -sn=1
+add autowire 1568 1824 1968 1856 8 -sn=1
+add autowire 1968 1824 2368 1872 8 -sn=1
+add autowire 2368 1824 2768 1856 8 -sn=1
+select figure at 3166 1779 8 -branches -sn=1
+select figure at 3199 1958 8 -branches -sn=1
+select figure at 3170 1782 8 -branches -sn=1
+delete selection -sn=1
+add autowire 3824 1824 3296 1440 8 -sn=1
+select figure at 2775 1802 8 -branches -sn=1
+add autowire 2768 1808 3168 1856 8 -sn=1
+add autowire 3168 1840 3568 1872 8 -sn=1
+select figure at 3157 957 8 -branches -sn=1
+select figure at 2674 1005 8 -branches -sn=1
+select figure at 2671 1012 8 -branches -sn=1
+select figure at 3336 1002 8 -branches -sn=1
+select figure at 3336 1002 8 -branches -sn=1
+select figure at 3343 1000 8 -branches -sn=1
+select all in 3469 1010 3498 1236 -branches -enclosed -sn=1
+select figure at 3450 993 8 -branches -sn=1
+move wire at 3168 992 3568 992 to 3168 1840 3568 1840 -keepConn -sn=1
+move wire at 2352 1008 2768 1008 to 2352 1840 2768 1840 -keepConn -sn=1
+move wire at 2752 1808 2752 1840 to 2768 1808 2768 1840 -keepConn -sn=1
+move branchpt at 2768 1808 to 2768 1824 -keepConn -sn=1
+move branchpt at 2768 1824 to 2768 1840 -keepConn -sn=1
+select figure at 2769 1845 8 -branches -sn=1
+select figure at 2829 1812 8 -branches -sn=1
+select figure at 2762 1845 8 -branches -sn=1
+move branchpt at 2752 1840 to 2768 1840 -keepConn -sn=1
+select figure at 3007 2091 8 -branches -sn=1
+select figure at 2300 1000 8 -branches -sn=1
+select figure at 2274 1845 8 -branches -sn=1
+select figure at 593 1091 8 -branches -sn=1
+select figure at 702 1079 8 -branches -sn=1
+select figure at 1102 1419 8 -branches -sn=1
+select figure at 1171 1307 8 -branches -sn=1
+select figure at 1171 1307 8 -branches -sn=1
+select figure at 1171 1767 8 -branches -sn=1
+select figure at 2936 2129 8 -branches -sn=1
+select figure at 2538 1850 8 -branches -sn=1
+select all in 2510 1836 2538 1850 -branches -enclosed -sn=1
+select figure at 2626 1826 8 -branches -sn=1
+select figure at 2586 1845 8 -branches -sn=1
+select figure at 1781 1857 8 -branches -sn=1
+select figure at 1781 1871 8 -branches -sn=1
+select figure at 2591 1852 8 -branches -sn=1
+select figure at 2598 1841 8 -branches -sn=1
+select figure at 2626 1802 8 -branches -sn=1
+select figure at 2607 1850 8 -branches -sn=1
+select figure at 2674 1850 8 -branches -sn=1
+select figure at 2686 1845 8 -branches -sn=1
+move wire at 2352 1840 2768 1840 to 2352 704 2768 704 -keepConn -sn=1
+move wire at 2352 704 2768 704 to 2352 848 2768 848 -keepConn -sn=1
+select figure at 2652 802 8 -branches -sn=1
+select figure at 807 2121 8 -branches -sn=1
+select all in 807 2055 893 2121 -branches -enclosed -sn=1
+select figure at 838 2224 8 -branches -sn=1
+select figure at 833 2155 8 -branches -sn=1
+move bustap at 832 2240 832 2144 to 832 2240 832 2112 -sn=1
+select figure at 807 2117 8 -branches -sn=1
+select figure at 2221 2221 8 -branches -sn=1
+select figure at 2157 2412 8 -branches -sn=1
+select figure at 679 2126 8 -branches -sn=1
+select all in 679 2126 3891 2417 -branches -enclosed -sn=1
+select figure at 2845 2402 8 -branches -sn=1
+select all in 525 1985 3926 2407 -branches -enclosed -sn=1
+move selection by -32 32 -keepConn -sn=1
+select figure at 2945 2283 8 -branches -sn=1
+select all in 2945 2229 2959 2283 -branches -enclosed -sn=1
+select figure at 2945 2259 8 -branches -sn=1
+select figure at 3864 2208 8 -branches -sn=1
+move wire at 3824 2208 3888 2208 to 3824 2400 3888 2400 -keepConn -sn=1
+select figure at 3833 2325 8 -branches -sn=1
+select figure at 3833 2325 8 -branches -sn=1
+select figure at 3833 2325 8 -branches -all -sn=1
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+select figure at 3408 2314 8 -branches -sn=1
+move wire at 3072 2320 3824 2320 to 3072 640 3824 640 -keepConn -sn=1
+select figure at 3463 2235 8 -branches -sn=1
+select figure at 3463 2235 8 -branches -all -sn=1
+select all in 3429 2225 3504 2242 -branches -enclosed -sn=1
+select figure at 3453 2242 8 -branches -sn=1
+select figure at 1906 2445 8 -branches -sn=1
+select figure at 641 2105 8 -branches -sn=1
+select all in 641 2105 4063 2297 -branches -enclosed -sn=1
+select figure at 4060 1975 8 -branches -sn=1
+select all in 579 1975 4060 2493 -branches -enclosed -sn=1
+move selection by -32 16 -keepConn -sn=1
+select figure at 1563 2417 8 -branches -sn=1
+select figure at 794 2133 8 -branches -sn=1
+move bustap at 800 2256 800 2128 to 800 2256 800 2160 -sn=1
+select figure at 803 2167 8 -branches -sn=1
+select figure at 796 2115 8 -branches -sn=1
+select figure at 802 2114 8 -branches -sn=1
+select figure at 802 2114 8 -branches -sn=1
+select figure at 802 2114 8 -branches -all -sn=1
+add autowire 800 2160 800 2112 8 -sn=1
+add autowire 1200 2160 1200 2128 8 -sn=1
+add autowire 1600 2160 1600 2112 8 -sn=1
+add autowire 2000 2160 2000 2112 8 -sn=1
+add autowire 2400 2160 2400 2128 8 -sn=1
+add autowire 2800 2160 2800 2112 8 -sn=1
+add autowire 3200 2160 3200 2112 8 -sn=1
+add autowire 3600 2160 3600 2128 8 -sn=1
+name branch at 800 2144 8 sum(7) -sn=1
+name branch at 1200 2144 8 sum(6) -sn=1
+name branch at 1600 2144 8 sum(5) -sn=1
+name branch at 2000 2144 8 sum(4) -sn=1
+name branch at 2400 2144 8 sum(3) -sn=1
+name branch at 2800 2144 8 sum(2) -sn=1
+name branch at 3200 2144 8 sum(1) -sn=1
+name branch at 3600 2144 8 sum(0) -sn=1
+select figure at 941 1866 8 -branches -sn=1
+select figure at 965 1852 8 -branches -sn=1
+select figure at 1321 1845 8 -branches -sn=1
+move wire at 1232 1840 1824 1840 to 1232 784 1824 784 -keepConn -sn=1
+select figure at 1820 1829 8 -branches -sn=1
+select figure at 1825 1817 8 -branches -sn=1
+select figure at 1743 1806 8 -branches -sn=1
+select figure at 540 617 8 -branches -sn=1
+select figure at 774 737 8 -branches -sn=1
+select figure at 994 723 8 -branches -sn=1
+move wire at 864 720 1264 720 to 864 592 1264 592 -keepConn -sn=1
+move wire at 1264 720 1664 720 to 1264 592 1664 592 -keepConn -sn=1
+select figure at 566 534 8 -branches -sn=1
+select all in 566 534 4046 2371 -branches -enclosed -sn=1
+select figure at 160 366 8 -branches -sn=1
+select all in 160 366 4226 2614 -branches -enclosed -sn=1
+delete selection -sn=1
+select figure at 1645 581 8 -branches -sn=1
+select all in 1585 569 1645 581 -branches -enclosed -sn=1
+add autowire 720 320 2960 320 8 -sn=1
+add autowire 720 640 2976 640 8 -sn=1
+add instance HA_Clear 800 896 R90 -sn=1
+add instance HA_Clear 1120 896 R90 -sn=1
+add instance HA_Clear 1440 896 R90 -sn=1
+add instance HA_Clear 1760 896 R90 -sn=1
+add instance HA_Clear 2080 896 R90 -sn=1
+add instance HA_Clear 2400 896 R90 -sn=1
+add instance HA_Clear 2720 896 R90 -sn=1
+add instance HA_Clear 3040 896 R90 -sn=1
+select figure at 2984 643 8 -branches -sn=1
+move wire at 720 640 2976 640 to 720 640 3360 640 -breakConn -sn=1
+select figure at 2962 321 8 -branches -sn=1
+move wire at 720 320 2960 320 to 720 320 3360 320 -breakConn -sn=1
+BeginGroup
+add wire 832 896 832 864 -sn=1
+add instance and2 736 608 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 960 896 960 864 -sn=1
+add instance and2 864 608 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 1152 896 1152 864 -sn=1
+add instance and2 1056 608 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 1280 896 1280 864 -sn=1
+add instance and2 1184 608 R90 -sn=1
+EndGroup
+add instance and2 1360 640 R90 -sn=1
+select figure at 1425 734 8 -branches -sn=1
+delete selection -sn=1
+BeginGroup
+add wire 1472 896 1472 864 -sn=1
+add instance and2 1376 608 R90 -sn=1
+EndGroup
+select figure at 724 726 8 -branches -sn=1
+select all in 724 726 3476 1304 -branches -enclosed -sn=1
+delete selection -sn=1
+select figure at 815 734 8 -branches -sn=1
+delete selection -sn=1
+select figure at 946 762 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1149 764 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1306 752 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1530 718 8 -branches -sn=1
+select figure at 1496 736 8 -branches -sn=1
+delete selection -sn=1
+add instance FA_Clear 800 1056 R90 -sn=1
+add instance FA_Clear 1200 1056 R90 -sn=1
+add instance FA_Clear 1600 1056 R90 -sn=1
+add instance FA_Clear 2000 1056 R90 -sn=1
+add instance FA_Clear 2400 1056 R90 -sn=1
+add instance FA_Clear 2800 1056 R90 -sn=1
+add instance FA_Clear 3200 1056 R90 -sn=1
+add instance FA_Clear 384 1056 R90 -sn=1
+select figure at 720 647 8 -branches -sn=1
+move branchpt at 720 640 to 400 640 -keepConn -sn=1
+select figure at 774 323 8 -branches -sn=1
+move wire at 720 320 3360 320 to 3360 320 400 320 -breakConn -sn=1
+BeginGroup
+add wire 416 1056 416 1024 -sn=1
+add instance and2 320 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 544 1056 544 1024 -sn=1
+add instance and2 448 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 832 1056 832 1024 -sn=1
+add instance and2 736 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 960 1056 960 1024 -sn=1
+add instance and2 864 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 1232 1056 1232 1024 -sn=1
+add instance and2 1136 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 1360 1056 1360 1024 -sn=1
+add instance and2 1264 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 1632 1056 1632 1024 -sn=1
+add instance and2 1536 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 1760 1056 1760 1024 -sn=1
+add instance and2 1664 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 2032 1056 2032 1024 -sn=1
+add instance and2 1936 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 2160 1056 2160 1024 -sn=1
+add instance and2 2064 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 2432 1056 2432 1024 -sn=1
+add instance and2 2336 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 2560 1056 2560 1024 -sn=1
+add instance and2 2464 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 2832 1056 2832 1024 -sn=1
+add instance and2 2736 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 2960 1056 2960 1024 -sn=1
+add instance and2 2864 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 3232 1056 3232 1024 -sn=1
+add instance and2 3136 768 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 3360 1056 3360 1024 -sn=1
+add instance and2 3264 768 R90 -sn=1
+EndGroup
+select figure at 788 638 8 -branches -sn=1
+move selection by 0 -48 -keepConn -sn=1
+select figure at 303 645 8 -branches -sn=1
+add iomarker 400 592 0 Unknown Unknown -sn=1
+select figure at 324 583 8 -branches -sn=1
+name net at 400 592 8 A(7:0) -sn=1
+select figure at 502 489 8 -branches -sn=1
+add bustap 576 592 576 688 -sn=1
+add bustap 992 592 992 688 -sn=1
+add bustap 1392 592 1392 688 -sn=1
+add bustap 1792 592 1792 688 -sn=1
+add bustap 2192 592 2192 688 -sn=1
+add bustap 2592 592 2592 688 -sn=1
+add bustap 2992 592 2992 688 -sn=1
+add bustap 3296 592 3296 688 -sn=1
+select figure at 3362 590 8 -branches -sn=1
+move branchpt at 3360 592 to 3408 592 -keepConn -sn=1
+select figure at 3299 610 8 -branches -sn=1
+select figure at 240 505 8 -branches -sn=1
+select all in 240 505 3488 724 -branches -enclosed -sn=1
+move selection by 0 -32 -keepConn -sn=1
+select figure at 3124 436 8 -branches -sn=1
+add autowire 576 656 576 768 8 -sn=1
+add autowire 992 656 992 768 8 -sn=1
+add autowire 1392 656 1392 768 8 -sn=1
+add autowire 1792 656 1792 768 8 -sn=1
+add autowire 2192 656 2192 768 8 -sn=1
+add autowire 2592 656 2592 768 8 -sn=1
+add autowire 2992 656 2992 768 8 -sn=1
+add autowire 3296 656 3280 656 8 -sn=1
+add autowire 3280 656 3392 768 8 -sn=1
+select figure at 3282 675 8 -branches -sn=1
+move wire at 3280 656 3280 704 to 3296 656 3296 704 -keepConn -sn=1
+move wire at 3296 656 3296 704 to 3392 656 3392 704 -keepConn -sn=1
+select figure at 3216 652 8 -branches -sn=1
+add autowire 3264 768 3328 768 8 -sn=1
+add autowire 2864 768 2928 768 8 -sn=1
+add autowire 2464 768 2528 768 8 -sn=1
+add autowire 2528 752 2864 752 8 -sn=1
+add autowire 2928 752 3264 752 8 -sn=1
+add autowire 2064 768 2128 768 8 -sn=1
+add autowire 2128 752 2464 752 8 -sn=1
+add autowire 1664 768 1728 768 8 -sn=1
+add autowire 1728 752 2064 752 8 -sn=1
+add autowire 1264 768 1328 768 8 -sn=1
+add autowire 1328 752 1664 752 8 -sn=1
+add autowire 864 768 928 768 8 -sn=1
+add autowire 928 752 1264 752 8 -sn=1
+add autowire 448 768 512 768 8 -sn=1
+add autowire 512 752 864 752 8 -sn=1
+select figure at 387 433 8 -branches -sn=1
+add iomarker 400 320 0 Unknown Unknown -sn=1
+select figure at 214 318 8 -branches -sn=1
+select figure at 291 317 8 -branches -sn=1
+name net at 400 320 8 B(7:0) -sn=1
+add bustap 480 320 480 416 -sn=1
+add bustap 800 320 800 416 -sn=1
+add bustap 1200 320 1200 416 -sn=1
+add bustap 1600 320 1600 416 -sn=1
+add bustap 2000 320 2000 416 -sn=1
+add bustap 2400 320 2400 416 -sn=1
+add bustap 2800 320 2800 416 -sn=1
+add bustap 3200 320 3200 416 -sn=1
+add autowire 384 768 480 416 8 -sn=1
+add autowire 800 768 800 416 8 -sn=1
+add autowire 1200 768 1200 416 8 -sn=1
+select figure at 1255 458 8 -branches -sn=1
+select figure at 1595 418 8 -branches -sn=1
+select figure at 1597 446 8 -branches -sn=1
+select figure at 1602 443 8 -branches -sn=1
+select figure at 1602 443 8 -branches -sn=1
+select figure at 1604 517 8 -branches -sn=1
+select figure at 1600 516 8 -branches -sn=1
+select figure at 1596 692 8 -branches -sn=1
+select figure at 1602 775 8 -branches -sn=1
+select figure at 1606 721 8 -branches -sn=1
+select figure at 1602 714 8 -branches -sn=1
+select figure at 1586 699 8 -branches -sn=1
+select all in 1586 699 1688 719 -branches -enclosed -sn=1
+select figure at 1585 404 8 -branches -sn=1
+add autowire 1600 768 1600 416 8 -sn=1
+select figure at 1710 439 8 -branches -sn=1
+add autowire 2000 416 2000 768 8 -sn=1
+add autowire 2400 768 2400 416 8 -sn=1
+add autowire 2800 416 2800 768 8 -sn=1
+add autowire 3200 416 3200 768 8 -sn=1
+add autowire 3424 1440 2896 1056 8 -sn=1
+add autowire 3024 1440 2496 1056 8 -sn=1
+select figure at 2320 1060 8 -branches -sn=1
+move wire at 2320 1040 2320 1520 to 2768 1040 2768 1520 -keepConn -sn=1
+add autowire 2624 1440 2096 1056 8 -sn=1
+select figure at 1941 1095 8 -branches -sn=1
+move wire at 1936 1040 1936 1520 to 2336 1040 2336 1520 -keepConn -sn=1
+select figure at 2766 1233 8 -branches -sn=1
+select figure at 2770 1235 8 -branches -sn=1
+select figure at 2779 1055 8 -branches -sn=1
+select figure at 2768 1043 8 -branches -sn=1
+move wire at 2768 1040 2768 1520 to 2736 1040 2736 1520 -keepConn -sn=1
+select figure at 2102 1526 8 -branches -sn=1
+add autowire 2224 1440 1696 1056 8 -sn=1
+select figure at 1521 1407 8 -branches -sn=1
+move wire at 1520 1040 1520 1520 to 1936 1040 1936 1520 -keepConn -sn=1
+add autowire 480 1056 1024 1440 8 -sn=1
+add autowire 896 1056 1424 1440 8 -sn=1
+select figure at 716 1250 8 -branches -sn=1
+select figure at 724 1052 8 -branches -sn=1
+move wire at 720 1040 720 1504 to 1136 1040 1136 1504 -keepConn -sn=1
+select figure at 309 1212 8 -branches -sn=1
+move wire at 304 1040 304 1520 to 720 1040 720 1520 -keepConn -sn=1
+select figure at 1101 1523 8 -branches -sn=1
+add autowire 1824 1440 1296 1056 8 -sn=1
+select figure at 1149 1091 8 -branches -sn=1
+move wire at 1152 1040 1152 1456 to 1536 1040 1536 1456 -keepConn -sn=1
+select figure at 1563 1009 8 -branches -sn=1
+select figure at 1700 1467 8 -branches -sn=1
+select figure at 1700 1452 8 -branches -sn=1
+move wire at 1536 1456 1824 1456 to 1536 1504 1824 1504 -keepConn -sn=1
+select figure at 918 1520 8 -branches -sn=1
+move wire at 720 1520 1024 1520 to 720 1504 1024 1504 -keepConn -sn=1
+select figure at 2138 1531 8 -branches -sn=1
+select figure at 2135 1523 8 -branches -sn=1
+move wire at 1936 1520 2224 1520 to 1936 1504 2224 1504 -keepConn -sn=1
+select figure at 2341 1523 8 -branches -sn=1
+select figure at 2341 1523 8 -branches -all -sn=1
+select figure at 2409 1534 8 -branches -sn=1
+select figure at 2409 1523 8 -branches -sn=1
+move wire at 2336 1520 2624 1520 to 2336 1504 2624 1504 -keepConn -sn=1
+select figure at 2442 1569 8 -branches -sn=1
+select all in 2219 1569 2442 1584 -branches -enclosed -sn=1
+select figure at 2915 1525 8 -branches -sn=1
+move wire at 2736 1520 3024 1520 to 2736 1504 3024 1504 -keepConn -sn=1
+select figure at 3267 1521 8 -branches -sn=1
+move wire at 3120 1520 3424 1520 to 3120 1504 3424 1504 -keepConn -sn=1
+select figure at 2741 1596 8 -branches -sn=1
+select figure at 3123 1472 8 -branches -sn=1
+move wire at 3120 1040 3120 1504 to 3136 1040 3136 1504 -keepConn -sn=1
+select figure at 2875 1657 8 -branches -sn=1
+add autowire 608 1056 1024 1056 8 -sn=1
+add autowire 1424 1056 1024 688 8 -sn=1
+add autowire 1824 1056 1424 688 8 -sn=1
+add autowire 2224 1056 1824 688 8 -sn=1
+add autowire 2624 1056 2224 688 8 -sn=1
+add autowire 3024 1056 2624 688 8 -sn=1
+add autowire 3424 1056 3024 688 8 -sn=1
+add autowire 3296 1056 3600 1056 8 -sn=1
+add instance gnd 3536 1184 R0 -sn=1
+select figure at 1197 843 8 -branches -sn=1
+add autowire 448 752 608 688 8 -sn=1
+select figure at 501 683 8 -branches -sn=1
+select figure at 124 792 8 -branches -sn=1
+add autowire 448 752 256 752 8 -sn=1
+add iomarker 256 752 0 Unknown Unknown -sn=1
+select figure at 253 724 8 -branches -sn=1
+name net at 256 752 8 Clear_in -sn=1
+select figure at 294 749 8 -branches -sn=1
+select figure at 132 1159 8 -branches -sn=1
+BeginGroup
+add wire 416 1440 416 1472 -sn=1
+add instance and2 288 1472 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 608 1440 608 1472 -sn=1
+add instance and2 480 1472 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 832 1440 832 1472 -sn=1
+add instance and2 704 1472 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 1232 1440 1232 1472 -sn=1
+add instance and2 1104 1472 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 1632 1440 1632 1472 -sn=1
+add instance and2 1504 1472 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 2032 1440 2032 1472 -sn=1
+add instance and2 1904 1472 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 2432 1440 2432 1472 -sn=1
+add instance and2 2304 1472 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 2832 1440 2832 1472 -sn=1
+add instance and2 2704 1472 R90 -sn=1
+EndGroup
+BeginGroup
+add wire 3232 1440 3232 1472 -sn=1
+add instance and2 3104 1472 R90 -sn=1
+EndGroup
+add autowire 352 1472 544 1472 8 -sn=1
+add autowire 544 1456 768 1472 8 -sn=1
+add autowire 768 1456 1168 1472 8 -sn=1
+add autowire 1168 1456 1568 1472 8 -sn=1
+add autowire 1568 1456 1968 1472 8 -sn=1
+add autowire 1968 1456 2368 1472 8 -sn=1
+add autowire 2368 1456 2768 1472 8 -sn=1
+add autowire 2768 1456 3168 1472 8 -sn=1
+add autowire 352 1904 3440 1888 8 -sn=1
+add iomarker 352 1904 0 Unknown Unknown -sn=1
+select figure at 274 1888 8 -branches -sn=1
+name net at 352 1904 8 Sum(7:0) -sn=1
+add bustap 416 1904 416 1808 -sn=1
+add bustap 800 1904 800 1808 -sn=1
+add bustap 1200 1904 1200 1808 -sn=1
+add bustap 1600 1904 1600 1808 -sn=1
+add bustap 2000 1904 2000 1808 -sn=1
+add bustap 2400 1904 2400 1808 -sn=1
+add bustap 2800 1904 2800 1808 -sn=1
+add bustap 3200 1904 3200 1808 -sn=1
+add autowire 3200 1728 3200 1808 8 -sn=1
+select figure at 2876 1725 8 -branches -sn=1
+add autowire 2800 1728 2800 1808 8 -sn=1
+select figure at 2457 1742 8 -branches -sn=1
+add autowire 2400 1728 2400 1808 8 -sn=1
+select figure at 1902 1757 8 -branches -sn=1
+add autowire 2000 1728 2000 1808 8 -sn=1
+add autowire 384 1728 416 1808 8 -sn=1
+add autowire 800 1728 800 1808 8 -sn=1
+select figure at -8 1337 8 -branches -sn=1
+add autowire 1200 1744 1200 1728 8 -sn=1
+add autowire 1200 1744 1200 1808 8 -sn=1
+add autowire 1600 1744 1600 1728 8 -sn=1
+add autowire 1600 1744 1600 1808 8 -sn=1
+select figure at 2140 1678 8 -branches -sn=1
+BeginGroup
+add wire 576 1728 576 1760 -sn=1
+add iomarker 576 1760 0 Output Unknown -sn=1
+EndGroup
+select figure at 570 1802 8 -branches -sn=1
+name net at 576 1728 8 Cout -sn=1
+name branch at 3200 1760 8 sum(0) -sn=1
+name branch at 2800 1760 8 sum(1) -sn=1
+name branch at 2400 1760 8 sum(2) -sn=1
+name branch at 2000 1760 8 sum(3) -sn=1
+name branch at 1600 1760 8 sum(4) -sn=1
+name branch at 1200 1760 8 sum(5) -sn=1
+name branch at 800 1760 8 sum(6) -sn=1
+name branch at 416 1760 8 sum(7) -sn=1
+name branch at 576 656 8 A(7) -sn=1
+name branch at 576 720 8 A(6) -sn=1
+name branch at 992 704 8 A(5) -sn=1
+name branch at 1392 704 8 A(4) -sn=1
+name branch at 1600 688 8 A(3) -sn=1
+name branch at 1600 704 8 A(2) -sn=1
+select figure at 1631 699 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1424 699 8 -branches -sn=1
+select figure at 1413 704 8 -branches -sn=1
+name branch at 1792 704 8 A(3) -sn=1
+name branch at 2192 704 8 A(2) -sn=1
+select figure at 596 707 8 -branches -sn=1
+BeginGroup
+delete attr NA|A(6)|Name -sn=1
+clear selection -sn=1
+EndGroup
+select figure at 999 725 8 -branches -sn=1
+select figure at 1008 700 8 -branches -sn=1
+BeginGroup
+delete attr NA|A(5)|Name -sn=1
+clear selection -sn=1
+EndGroup
+select figure at 1404 713 8 -branches -sn=1
+BeginGroup
+delete attr NA|A(4)|Name -sn=1
+clear selection -sn=1
+EndGroup
+select all in 721 992 753 1002 -branches -enclosed -sn=1
+select figure at 4296 2024 8 -branches -sn=1
+select figure at 3977 2026 8 -branches -sn=1
+select figure at 1819 711 8 -branches -sn=1
+select figure at 1816 711 8 -branches -sn=1
+select figure at 1812 711 8 -branches -sn=1
+select figure at 1809 705 8 -branches -sn=1
+BeginGroup
+delete attr NA|A(3)|Name -sn=1
+clear selection -sn=1
+EndGroup
+select figure at 2207 707 8 -branches -sn=1
+BeginGroup
+delete attr NA|A(2)|Name -sn=1
+clear selection -sn=1
+EndGroup
+name branch at 576 704 8 A(7) -sn=1
+name branch at 992 704 8 A(6) -sn=1
+name branch at 1392 704 8 A(5) -sn=1
+name branch at 1792 704 8 A(4) -sn=1
+name branch at 2192 704 8 A(3) -sn=1
+name branch at 2592 704 8 A(2) -sn=1
+name branch at 2992 704 8 A(1) -sn=1
+name branch at 3392 704 8 A(0) -sn=1
+select figure at 1742 230 8 -branches -sn=1
+name branch at 3200 448 8 B(0) -sn=1
+name branch at 2800 448 8 B(1) -sn=1
+name branch at 2400 448 8 B(2) -sn=1
+name branch at 2000 448 8 B(3) -sn=1
+name branch at 1600 432 8 B(4) -sn=1
+name branch at 1200 448 8 B(5) -sn=1
+name branch at 800 448 8 B(6) -sn=1
+name branch at 480 448 8 B(7) -sn=1
+select figure at 1043 176 8 -branches -sn=1
